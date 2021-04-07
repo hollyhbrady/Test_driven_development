@@ -1,7 +1,8 @@
-def compare(num1, num2):
-    if num1 < num2:
-        return f"{num1} is less than {num2}"
-    if num1 > num2:    
-        return f"{num1} is greater than {num2}"
-    return f"{num1} is the same as {num2}"
+def compare(number1, number2):
+    if number1 < number2:
+        return f"{number1} is less than {number2}"
+    elif number1 > number2:    
+        return f"{number1} is greater than {number2}"
+    else:
+        return f"{number1} is the same as {number2}"
     
